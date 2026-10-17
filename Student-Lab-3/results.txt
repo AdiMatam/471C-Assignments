@@ -1,0 +1,30 @@
+# algorithm, rx_oversample, error_statistic, symbol_duration_us
+# All runs: 200 iterations, noise -Inf, h = 0.75*exp(j*pi/4), delay = 0.34 * symbol duration
+# Earlier runs (symbol duration 1 us: TX oversample 4, TX sample rate 4M, RX sample rate = RX oversample in M)
+maxenergy, 2, 0.025600, 1.0
+maxenergy, 4, 0.008100, 1.0
+maxenergy, 10, 0.003200, 1.0
+maxenergy, 20, 0.000460, 1.0
+# Runs at symbol duration 7.2 us (TX oversample 4, TX sample rate 0.5556M, delay 2.448E-6)
+maxenergy, 2, 0.025600, 7.2
+maxenergy, 4, 0.008900, 7.2
+maxenergy, 6, 0.000044, 7.2
+maxenergy, 8, 0.002334, 7.2
+maxenergy, 10, 0.001720, 7.2
+maxenergy, 12, 0.002120, 7.2
+maxenergy, 12, 0.000044, 7.2
+maxenergy, 16, 0.001174, 7.2
+maxenergy, 18, 0.000133, 7.2
+maxenergy, 20, 0.000528, 7.2
+maxenergy, 14, 0.000295, 7.28
+elgate, 2, 0.115600, 7.2
+elgate, 4, 0.008637, 7.2
+elgate, 6, 0.009172, 7.2
+elgate, 8, 0.007722, 7.2
+elgate, 10, 0.002540, 7.2
+elgate, 12, 0.004183, 7.2
+elgate, 16, 0.001742, 7.2
+elgate, 18, 0.001309, 7.2
+elgate, 20, 0.001675, 7.2
+elgate, 14, 0.002918, 7.28
+# Note: results vary between runs even with noise -Inf (both algorithms; early-late gate more so).
