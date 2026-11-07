@@ -1,0 +1,294 @@
+{
+  "main": {
+    "id": "be8fb1a4f9463e47",
+    "type": "split",
+    "children": [
+      {
+        "id": "0a5479ae1a282571",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9e8a75ac45d189e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03_Passband_Baseband_Channels.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "03_Passband_Baseband_Channels"
+            }
+          },
+          {
+            "id": "7c021922fa1c1b33",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04_PAM_Constellations_AWGN.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "04_PAM_Constellations_AWGN"
+            }
+          },
+          {
+            "id": "02fb95162d0cf5bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04_PAM_Constellations_AWGN.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "04_PAM_Constellations_AWGN"
+            }
+          },
+          {
+            "id": "4c7b43a16ff57851",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06_ML_Detection_and_BER.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "06_ML_Detection_and_BER"
+            }
+          },
+          {
+            "id": "cf81c1cba3d14b54",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10_Practice_Set.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "10_Practice_Set"
+            }
+          },
+          {
+            "id": "c31b21fea118b534",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "11_Practice_Solutions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "11_Practice_Solutions"
+            }
+          },
+          {
+            "id": "878a073191d91d8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "12_Practice_4c_Explainer.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "12_Practice_4c_Explainer"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4d1572ed3a7a5f5f",
+    "type": "split",
+    "children": [
+      {
+        "id": "61b2f85013d6a0f0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a69ddc66678e675c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "6c41c8f87baaeb72",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "2880889d241e992c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 360.00390625
+  },
+  "right": {
+    "id": "e7f38783a3ab7846",
+    "type": "split",
+    "children": [
+      {
+        "id": "f5562cf00336669d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e3d992b9287d8538",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "04_PAM_Constellations_AWGN.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "2f87d2f3bf0b6f04",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "04_PAM_Constellations_AWGN.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "59d87cdb0ed2e640",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f13451c322c3041d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "a02bbdf3e22df2d3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "04_PAM_Constellations_AWGN.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "02fb95162d0cf5bf",
+  "lastOpenFiles": [
+    "02_Math_Toolkit.md",
+    "10_Practice_Set.md",
+    "05_Pulse_Shaping_Matched_Filter_Multirate.md",
+    "06_ML_Detection_and_BER.md",
+    "09_Formula_Sheet.md",
+    "03_Passband_Baseband_Channels.md",
+    "04_PAM_Constellations_AWGN.md",
+    "12_Practice_4c_Explainer.md",
+    "11_Practice_Solutions.md",
+    "01_Big_Picture_and_Information.md",
+    "HW #3.pdf",
+    "HW 3 Sandboxing.md",
+    "08_Frequency_Selective_Equalization_SCFDE.md",
+    "07_Synchronization_and_Flat_Channel_Estimation.md",
+    "00_Study_Plan.md"
+  ]
+}
