@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "Lab5_PreLab_Answers"
             }
+          },
+          {
+            "id": "c0144a319fd1a6f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lab 4/EE471C_Lab4_Report.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "EE471C_Lab4_Report"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -203,8 +217,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "5f7762dc39d16e78",
+  "active": "c0144a319fd1a6f3",
   "lastOpenFiles": [
+    "Lab 4/EE471C_Lab4_Report_PDF.pdf",
+    "Lab 5/Lab5_PreLab_Answers.md",
+    "Lab 4/Lab4_PDP.png",
+    "Lab 4/plot_pdp.py",
+    "Lab 4/EE471C_Lab4_Report.md",
+    "Lab 4/sim_results.txt",
+    "Lab 4/Lab4_sim_ber_vs_snr.png",
+    "Lab 4/Lab4_sim_equalizer_demo.png",
+    "Lab 4/Lab4_sim_tap_resolution.png",
+    "Lab 4/Lab4_sim_power_delay_profile.png",
+    "Lab 4/Lab4_sim_narrowband_constellation.png",
+    "Lab 4/sim_lab4.py",
     "Lab 5/Lab5_PreLab_Answers_PDF.pdf",
     "EE471C_Lab3_Report.md",
     "EE471C_Lab3_Report_PDF.pdf",
@@ -217,22 +243,14 @@
     "471C HW 2 Written.pdf",
     "Lab2_PreLab_Answers.md",
     "Lab2_PreLab_Answers.pdf",
-    "lab_2.2/adityam_pulse_shaping.vi",
-    "lab_2.2/adityam_matched_filtering.vi",
-    "lab_2.1/adityam_transmitter.vi",
-    "lab_2.1/adityam_source.vi",
     "lab_2.1/modulate_pseudocode.md",
     "lab_2.1/decode_qpsk.png",
     "Lab2_BER_PLOT.png",
     "lab_2.1/ber_plot.png",
     "lab_2.1/decode_bpsk.png",
     "EE471C_Lab1_Report.md",
-    "IMG_8430.png",
-    "IMG_8432.png",
     "CLAUDE.md",
-    "IMG_8431.png",
     "Lab1_Part2_PreLab_Answers.md",
-    "EE471C_HW1_Fa26_Ans.md",
-    "ber_plot.png"
+    "EE471C_HW1_Fa26_Ans.md"
   ]
 }

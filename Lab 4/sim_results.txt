@@ -1,0 +1,37 @@
+=== Symbol rates / bandwidths (alpha = 0.50 assumed) ===
+Narrowband (3.1): Rs = 100 kSym/s, T = 10.0 us, passband BW = (1+a)Rs = 150 kHz, Nyquist-min = 100 kHz
+Wideband   (3.2): Rs = 5000 kSym/s, T = 0.2 us, passband BW = (1+a)Rs = 7500 kHz, Nyquist-min = 5000 kHz
+Taps in [0, 2.5 us) for narrowband: 1  (n = 0..0)
+Taps in [0, 2.5 us) for wideband: 13  (n = 0..12)
+
+narrowband: |h[main]|^2 = 0.349, signal-to-ISI ratio = 38.7 dB
+wideband: |h[main]|^2 = 0.408, signal-to-ISI ratio = 7.2 dB
+Model channel RMS delay spread = 56 ns, max excess delay = 600 ns
+
+=== Sec 3.1 narrowband ===
+h_nb[-1,0,1] (x1/RX_SCALE) = -0.003+0.003j, 0.366+0.464j, 0.003-0.004j
+|h_nb[0]| = 0.0236, angle = 51.7 deg; 1-tap equalizer f = 42.5 at -51.8 deg; BER = 0.0000
+Residual CFO 15 Hz rotates the constellation 17.5 deg over one packet
+
+=== Sec 3.2 wideband: per-packet LS channel estimates ===
+pkt  timing_eps   |h^[0..5]|^2                                  BER(Lf+1=6)  keep
+  0   -26.5 ns   0.125 0.056 0.010 0.004 0.000 0.000     0.008       yes
+  1   +42.3 ns   0.385 0.052 0.003 0.005 0.000 0.001     0.000       yes
+  2   +49.7 ns   0.320 0.009 0.003 0.003 0.000 0.000     0.000       yes
+  3   -21.9 ns   0.595 0.130 0.018 0.005 0.000 0.000     0.000       yes
+  4   +18.9 ns   0.410 0.069 0.001 0.002 0.000 0.000     0.000       yes
+  5   +46.0 ns   0.000 0.005 0.032 0.250 0.013 0.003     0.474       NO (frame error)
+  6   -25.4 ns   0.374 0.105 0.009 0.004 0.000 0.000     0.000       yes
+  7   +22.1 ns   0.152 0.029 0.004 0.003 0.000 0.000     0.000       yes
+Averaged PDP over kept packets (normalized): 1.000, 0.191, 0.020, 0.011, 0.001, 0.001
+Averaged PDP in dB:                           0.0, -7.2, -17.0, -19.5, -32.8, -31.5
+Mean excess delay = 44 ns, RMS delay spread from estimated PDP = 105 ns
+
+=== Sec 3.3 demo (wideband channel, SNR 18 dB, single packet) ===
+Lf+1 = 1: chosen nd = 0, training LS error J = 2.632, BER = 0.000
+Lf+1 = 6: chosen nd = 2, training LS error J = 0.332, BER = 0.000
+BER vs SNR on the wideband lab channel (Monte Carlo, 150 packets/pt; floor 1/75000):
+SNR(dB):       0        2        4        6        8       10       12       14
+Lf+1=1: 2.1e-01  1.7e-01  1.2e-01  9.4e-02  7.1e-02  5.5e-02  3.9e-02  3.1e-02
+Lf+1=6: 2.5e-01  2.0e-01  1.4e-01  9.4e-02  5.5e-02  2.3e-02  8.2e-03  2.8e-03
+AWGN   : 1.6e-01  1.1e-01  5.9e-02  2.5e-02  6.9e-03  9.6e-04  1.3e-05  6.7e-06
